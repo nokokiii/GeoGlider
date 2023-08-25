@@ -22,8 +22,7 @@
     <img src={country.flag} alt="There was a problem while loading a flag" class="mb-5 w-40"/>
   </div>
   <div class="flex flex-col items-center">
-    <input bind:value={answer} class="{displayInput} text-black w-[10vw] h-[3vh] flex self-center px-2" type="text" placeholder="Type your answer..." on:keyup={handleInput} >
-    <input class="{displayAnswer} text-black bg-success-500 w-[10vw] h-[3vh] flex self-center px-2 placeholder:text-black" placeholder="{country.name}" disabled>
-<!--    <button class="{buttonDisplay} py-1 px-4 rounded-md mt-2 bg-primary-500 active:bg-primary-400 active:scale-[0.95]" on:click={checkTrueAnswer}>Check</button>-->
+    <input bind:value={answer} class="{displayInput} rounded-lg py-4 px-2 input text-black h-[3vh] flex self-center 2xl:w-[10vw] xl:w-[10vw] lg:w-[15vw] md:w-[20vw] sm:w-[25vw] w-[20rem]" type="text" placeholder="Type your answer..." on:keyup={handleInput} >
+    <input class="{displayAnswer} rounded-lg py-4 px-2 input-success text-black opacity-70 h-[3vh] flex self-center placeholder:text-black 2xl:w-[10vw] xl:w-[10vw] lg:w-[15vw] md:w-[20vw] sm:w-[25vw] w-[20rem]" placeholder="{country.name}" disabled>
   </div>
 </div>

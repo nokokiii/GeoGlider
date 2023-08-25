@@ -9,8 +9,8 @@
 
   let Countries = [
       {
-          name: "Afghanistan",
-          keys: ["afganistan"],
+          name: "Afganistan",
+          keys: ["afganistan", "islamiski emirat afganistanu"],
           flag: "https://flagcdn.com/w2560/af.png"
       },
       {
@@ -109,7 +109,7 @@
   shuffleArray(Countries);
 </script>
 
-<div class="grid grid-cols-5 pt-20 px-40 gap-y-10 mb-20">
+<div class="grid 2xl:grid-cols-5 xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2  pt-20 gap-y-10 mb-20">
   {#each Countries as country}
     <FlagCard country={country} />
   {/each}
