@@ -75,7 +75,7 @@
       },
       {
           name: "Australia",
-          keys: ["australia", "związek australiański"],
+          keys: ["australia", "związek australijski"],
           flag: "https://flagcdn.com/w2560/au.png"
       },
       {
