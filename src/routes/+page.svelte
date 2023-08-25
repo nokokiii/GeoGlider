@@ -20,12 +20,12 @@
       },
       {
           name: "Algieria",
-          keys: ["algieria"],
+          keys: ["algieria", "algierska republika ludowo-demokratyczna"],
           flag: "https://flagcdn.com/w2560/dz.png"
       },
       {
           name: "Andora",
-          keys: ["andora"],
+          keys: ["andora", "księstwo andory"],
           flag: "https://flagcdn.com/w2560/ad.png"
       },
       {
@@ -35,7 +35,7 @@
       },
       {
           name: "Angola",
-          keys: ["angola"],
+          keys: ["angola", "republika angoli"],
           flag: "https://flagcdn.com/w2560/ao.png"
       },
       {
@@ -55,17 +55,17 @@
       },
       {
           name: "Arabia Saudyjska",
-          keys: ["arabia saudyjska"],
+          keys: ["arabia saudyjska","królestwo arabii saudyjskiej"],
           flag: "https://flagcdn.com/w2560/sa.png"
       },
       {
           name: "Argentyna",
-          keys: ["argentyna"],
+          keys: ["argentyna", "republika argentyńska"],
           flag: "https://flagcdn.com/w2560/ar.png"
       },
       {
           name: "Armenia",
-          keys: ["armenia"],
+          keys: ["armenia", "republika armenii"],
           flag: "https://flagcdn.com/w2560/am.png"
       },
       {
@@ -75,32 +75,32 @@
       },
       {
           name: "Australia",
-          keys: ["australia"],
+          keys: ["australia", "związek australiański"],
           flag: "https://flagcdn.com/w2560/au.png"
       },
       {
           name: "Austria",
-          keys: ["austria"],
+          keys: ["austria", "republika austrii"],
           flag: "https://flagcdn.com/w2560/at.png"
       },
       {
           name: "Azerbejdżan",
-          keys: ["azerbejdżan"],
+          keys: ["azerbejdżan", "republika azerbejdżanu"],
           flag: "https://flagcdn.com/w2560/az.png"
       },
       {
           name: "Bahamy",
-          keys: ["bahamy"],
+          keys: ["bahamy", "wspólnota bahamów"],
           flag: "https://flagcdn.com/w2560/bs.png"
       },
       {
           name: "Bahrajn",
-          keys: ["bahrajn"],
+          keys: ["bahrajn", "królestwo bahrajnu"],
           flag: "https://flagcdn.com/w2560/bh.png"
       },
       {
           name: "Bangladesz",
-          keys: ["bangladesz"],
+          keys: ["bangladesz", "ludowa republika bangladeszu"],
           flag: "https://flagcdn.com/w2560/bd.png"
       },
 
