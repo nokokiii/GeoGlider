@@ -105,13 +105,19 @@
       },
       {
           name: "Barbados",
-          keys: ["barbadps"],
+          keys: ["barbados"],
           flag: "https://flagcdn.com/w2560/bb.png"
       },
       {
           name: "Belgia",
           keys: ["belgia", "królestwo belgii"],
           flag: "https://flagcdn.com/w2560/be.png"
+      },
+      {
+          name: "Belize",
+          stolica: "Belmopan",
+          keys: ["belize"],
+          flag: "https://flagcdn.com/w2560/bz.png"
       },
   ];
 
