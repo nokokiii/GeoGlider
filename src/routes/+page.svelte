@@ -110,20 +110,20 @@
       },
       {
           name: "Belgia",
-          stolica: "",
+          captialCity: "",
           keys: ["belgia", "królestwo belgii"],
           flag: "https://flagcdn.com/w2560/be.png"
       },
       {
           name: "Belize",
-          stolica: "Belmopan",
+          captialCity: "Belmopan",
           tag: ["Ameryka Północna"],
           keys: ["belize"],
           flag: "https://flagcdn.com/w2560/bz.png"
       },
       {
           name: "Benin",
-          stolica: "Porto-Novo",
+          captialCity: "Porto-Novo",
           tag: ["Afryka"],
           keys: ["benin"],
           flag: "https://flagcdn.com/w2560/bj.png"
