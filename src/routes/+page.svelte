@@ -1,31 +1,7 @@
-<script lang="ts">
-  import FlagCard from "$lib/Components/FlagCard.svelte";
-  import countries_list from "$lib/countries.json";
-
-  let showAnswer: boolean = false;
-  let Countries: any = countries_list;
-
-  function shuffleArray(arr: any) {
-      for (let i = arr.length - 1; i > 0; i--) {
-          const j = Math.floor(Math.random() * (i + 1));
-          [arr[i], arr[j]] = [arr[j], arr[i]];
-      }
-  }
-
-  function showAnswers() {
-      showAnswer = true;
-  }
-
-  shuffleArray(Countries);
-</script>
-
-<div class="flex justify-center w-full mb-5 mt-10">
-    <button on:click={showAnswers} class:hidden={showAnswer} class="flex variant-ghost-primary items-center p-3 rounded-lg hover:scale-105 duration-150 active:scale-100">Pokaż wszystkie odpowiedzi</button>
-    <a data-sveltekit-reload href="/" on:click={showAnswers} class:hidden={!showAnswer} class="flex variant-ghost-primary items-center p-3 rounded-lg hover:scale-105 duration-150 active:scale-100">Reset</a>
-</div>
-
-<div class="grid 2xl:grid-cols-5 xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2  pt-20 gap-y-10 mb-20">
-  {#each Countries as country}
-    <FlagCard country={country} isAnswer={showAnswer} />
-  {/each}
+<div class="flex flex-col justify-start items-center w-full h-full pt-20">
+    <h1 class="h1 text-[4rem] font-bold drop-shadow-2xl mb-20">Sprawdź jak dobrze umiesz flagi i stolice świata</h1>
+    <div class="flex flex-row justify-between w-[40rem]">
+        <a class="btn p-4 variant-ghost drop-shadow-2xl rounded-3xl w-40 text-2xl font-semibold hover:scale-105 " href="/flags">Flagi</a>
+        <a class="btn p-4 variant-ghost drop-shadow-2xl rounded-3xl w-40 text-2xl font-semibold hover:scale-105 " href="/capitals">Stolice</a>
+    </div>
 </div>
