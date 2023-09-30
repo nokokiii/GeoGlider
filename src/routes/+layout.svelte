@@ -25,7 +25,7 @@
 			<svelte:fragment slot="trail">
 				<a
 					class="btn btn-sm variant-ghost-surface"
-					href="https://github.com/nokokiii/"
+					href="https://github.com/nokokiii/flags"
 					target="_blank"
 					rel="noreferrer"
 				>
