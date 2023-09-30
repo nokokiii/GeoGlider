@@ -22,6 +22,24 @@
 			<svelte:fragment slot="lead">
 				<strong class="text-xl uppercase">Flags</strong>
 			</svelte:fragment>
+			<svelte:fragment>
+				<a
+					class="btn btn-sm variant-ghost-surface"
+					href="/flags"
+					target="_blank"
+					rel="noreferrer"
+				>
+					Flags
+				</a>
+				<a
+					class="btn btn-sm variant-ghost-surface"
+					href="/capitals"
+					target="_blank"
+					rel="noreferrer"
+				>
+					Capitals
+				</a>
+			</svelte:fragment>
 			<svelte:fragment slot="trail">
 				<a
 					class="btn btn-sm variant-ghost-surface"
