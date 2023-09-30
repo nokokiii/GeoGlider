@@ -1,21 +1,30 @@
 <script lang="ts">
+    import { count } from "$lib/store";
+
     export let country: any;
     export let isAnswer: boolean = false;
+
     let answer: string = "";
 
     let displayInput: boolean = false;
     let displayAnswer: boolean = true;
+    let displayCorrectAnswer: boolean = true;
+
+    function increment() {
+        count.update((n) => n + 1);
+    }
 
     function handleInput() {
         if (country.keys.includes(answer.toLowerCase())) {
             displayInput = true;
             displayAnswer = false;
+            increment();
         }
     }
 
     function showAnswer() {
         displayInput = true;
-        displayAnswer = false;
+        displayCorrectAnswer = false;
     }
 
     $: if (isAnswer) {
@@ -32,6 +41,7 @@
     <div class="flex flex-col items-center">
         <input bind:value={answer} class:hidden='{displayInput}' class="rounded-lg py-4 px-2 input text-black h-[3vh] flex self-center 2xl:w-[10vw] xl:w-[10vw] lg:w-[15vw] md:w-[20vw] sm:w-[25vw] w-[20rem]" type="text" placeholder="Type your answer..." on:keyup={handleInput}>
         <input class:hidden='{displayAnswer}' class="rounded-lg py-4 px-2 input-success text-black opacity-70 h-[3vh] flex self-center placeholder:text-black 2xl:w-[10vw] xl:w-[10vw] lg:w-[15vw] md:w-[20vw] sm:w-[25vw] w-[20rem]" placeholder="{country.name}" disabled>
+        <input class:hidden='{displayCorrectAnswer}' class="rounded-lg py-4 px-2 input-warning text-black opacity-70 h-[3vh] flex self-center placeholder:text-black 2xl:w-[10vw] xl:w-[10vw] lg:w-[15vw] md:w-[20vw] sm:w-[25vw] w-[20rem]" placeholder="{country.name}" disabled>
     </div>
     <input type='button' disabled='{displayInput}' class="btn variant-ghost-primary rounded-lg btn-primary mt-3 mb-3" on:click={showAnswer} value="Pokaż odpowiedź" />
 </div>
