@@ -165,7 +165,7 @@
     "name": "Brazylia",
     "keys": ["brazylia"],
     "flag": "https://flagcdn.com/w2560/br.png",
-    "capital": "Brasília"
+    "capital": "Brasilia"
   },
   {
     "name": "Brunei",
@@ -931,13 +931,13 @@
   },
   {
     "name": "Słowacja",
-    "keys": ["słowacja", "słowacka republika socjalistyczna"],
+    "keys": ["słowacja", "republika słowacka"],
     "flag": "https://flagcdn.com/w2560/sk.png",
     "capital": "Bratysława"
   },
   {
     "name": "Słowenia",
-    "keys": ["słowenia", "socjalistyczna republika słowenii"],
+    "keys": ["słowenia", "republika słowenii"],
     "flag": "https://flagcdn.com/w2560/si.png",
     "capital": "Lublana"
   },
@@ -949,7 +949,7 @@
   },
   {
     "name": "Sri Lanka",
-    "keys": ["sri lanka", "demokratyczna socjalistyczna republika lanki"],
+    "keys": ["sri lanka", "demokratyczno socjalistyczna republika lanki", "demokartyczno-sicjalistyczna republika lanki"],
     "flag": "https://flagcdn.com/w2560/lk.png",
     "capital": "Sri Dźajawardanapura Kotte"
   },
@@ -991,7 +991,7 @@
   },
   {
     "name": "Tadżykistan",
-    "keys": ["tadżykistan", "tadżycka socjalistyczna republika radziecka"],
+    "keys": ["tadżykistan", "republika tadżykistanu"],
     "flag": "https://flagcdn.com/w2560/tj.png",
     "capital": "Duszanbe"
   },
@@ -1015,7 +1015,7 @@
   },
   {
     "name": "Timor Wschodni",
-    "keys": ["timor wschodni", "demokratyczna republika wschodniego timoru"],
+    "keys": ["timor wschodni", "demokratyczna republika timoru wschodniego"],
     "flag": "https://flagcdn.com/w2560/tl.png",
     "capital": "Dili"
   },
@@ -1045,13 +1045,13 @@
   },
   {
     "name": "Turcja",
-    "keys": ["turcja", "turecka republika ludowa"],
+    "keys": ["turcja", "republika turcji"],
     "flag": "https://flagcdn.com/w2560/tr.png",
     "capital": "Ankara"
   },
   {
     "name": "Turkmenistan",
-    "keys": ["turkmenistan", "turkmeńska socjalistyczna republika radziecka"],
+    "keys": ["turkmenistan", "republika turkmenistanu"],
     "flag": "https://flagcdn.com/w2560/tm.png",
     "capital": "Aszchabad"
   },
@@ -1069,7 +1069,7 @@
   },
   {
     "name": "Ukraina",
-    "keys": ["ukraina", "ukraińska socjalistyczna republika radziecka"],
+    "keys": ["ukraina"],
     "flag": "https://flagcdn.com/w2560/ua.png",
     "capital": "Kijów"
   },
@@ -1105,13 +1105,13 @@
   },
   {
     "name": "Węgry",
-    "keys": ["węgry", "węgierska republika ludowa"],
+    "keys": ["węgry", "węgierska republika ludowa", "wegry"],
     "flag": "https://flagcdn.com/w2560/hu.png",
     "capital": "Budapeszt"
   },
   {
     "name": "Wielka Brytania",
-    "keys": ["wielka brytania", "zjednoczone królestwo wielkiej brytanii i irlandii północnej"],
+    "keys": ["wielka brytania", "zjednoczone królestwo wielkiej brytanii i irlandii północnej", "uk"],
     "flag": "https://flagcdn.com/w2560/gb.png",
     "capital": "Londyn"
   },
@@ -1123,7 +1123,7 @@
   },
   {
     "name": "Włochy",
-    "keys": ["włochy", "republika włoska"],
+    "keys": ["włochy", "republika włoska", "wlochy", "republika wloska"],
     "flag": "https://flagcdn.com/w2560/it.png",
     "capital": "Rzym"
   },
