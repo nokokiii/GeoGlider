@@ -1,16 +1,16 @@
 import Surreal from 'surrealdb';
 import type { PageLoad } from './$types';
-import { redirect } from '@sveltejs/kit';
+import { DB_URL, USER, PASSWD } from '$env/static/private';
 
 export const load: PageLoad = async ({ setHeaders }) => {
     const db = new Surreal();
 
-    await db.connect("wss://flags-06bhn4jv5pt4r1gi9evjmue6jg.aws-euw1.surreal.cloud");
+    await db.connect(DB_URL);
     await db.use({ namespace: "main", database: "v1" });
 
     const token: string = await db.signin({
-        username: "root",
-        password: "flags123"
+        username: USER,
+        password: PASSWD
     });
 
     await db.authenticate(token);
