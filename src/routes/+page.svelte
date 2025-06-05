@@ -1,6 +1,8 @@
 <script lang="ts">
- import { Button } from "$lib/components/ui/button/index.js";
- import Nav from "$lib/components/ui/Nav.svelte";
+    import Logo from "$lib/assets/worldwide.png";
+    
+    import { Button } from "$lib/components/ui/button/index.js";
+    import Nav from "$lib/components/ui/Header.svelte";
 </script>
 
 <Nav />
@@ -21,6 +23,6 @@
     <div class="relative w-96">
         <div class="absolute w-full inset-0 rounded-full shadow-[0px_0px_100px_15px_rgba(28,81,255,0.3)] scale-90 z-0"></div>
 
-        <img src="/worldwide.png" alt="Earth" class="relative w-full h-full rounded-full z-10" />
+        <img src={Logo} alt="Earth" class="relative w-full h-full rounded-full z-10" />
     </div>
 </main>
