@@ -1,8 +1,7 @@
 import Surreal from 'surrealdb';
-import type { PageLoad } from './$types';
 import { DB_URL, USER, PASSWD } from '$env/static/private';
 
-export const load: PageLoad = async ({ setHeaders }) => {
+export const load = async ({ setHeaders }) => {
     const db = new Surreal();
 
     await db.connect(DB_URL);
