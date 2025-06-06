@@ -57,7 +57,7 @@
                 <Input placeholder={name} class="bg-[#bb2124]/30 {displayCorrectAnswer ? '' : 'hidden'}" disabled />
             </div>
             
-            <Button disabled={displayAnswer || displayCorrectAnswer} onclick={showAnswer} variant="outline">Pokaż odpowiedź</Button>
+            <Button disabled={displayAnswer || displayCorrectAnswer} onclick={showAnswer} variant="outline">Show answer</Button>
         </div>
     </div>
 {/if}
