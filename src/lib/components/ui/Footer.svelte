@@ -1,4 +1,4 @@
-<footer class="w-full flex flex-row justify-between items-center bg-accent/20 border-t-2 backdrop-blur-2xl px-20 py-5 text-[#ABABAB]">
+<footer class="w-full flex flex-row justify-between items-center bg-accent/20 border-t-2 backdrop-blur-2xl px-20 py-5 text-[#ABABAB] text-md">
     <p class="bg-gradient-to-r from-[#8BF3FF] to-[#1C51FF] bg-clip-text text-transparent">
         @ 2025 GeoGlider
     </p>

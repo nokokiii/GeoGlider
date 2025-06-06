@@ -25,9 +25,13 @@
 		showCounter = !showCounter;
 	}
 
-    let seconds: number = 3590;
+    let seconds: number = 3600;
     const interval = setInterval(() => {
-        seconds++;
+        seconds--;
+        if (seconds <= 0) {
+            clearInterval(interval);
+            finish = true;
+        }
     }, 1000);
 
     onDestroy(() => {

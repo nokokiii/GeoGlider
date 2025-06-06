@@ -1,7 +1,6 @@
 <script lang="ts">
     import Logo from "$lib/assets/worldwide.png";
-    import NavbarButton from './navbar/NavbarButton.svelte';
-
+    import NavbarButton from '$lib/components/ui/navbar/NavbarButton.svelte';
     import { Button } from '$lib/components/ui/button/index.js';
 
     let y: number;

@@ -49,7 +49,7 @@
             <img src={flag} class="w-40" alt="Flag">
         </div>
 
-        <div class="flex flex-col gap-y-10 justify-center items-center">
+        <div class="flex flex-col gap-y-4 justify-center items-center">
             <div class="flex items-center">
                 <Input bind:value={answer} placeholder="Type your answer..." onkeyup={handleInput}
                     class="{!displayCorrectAnswer ? '' : 'hidden'} {displayAnswer ? 'bg-[#22bb33]/30' : ''}" 
