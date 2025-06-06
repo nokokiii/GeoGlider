@@ -21,7 +21,7 @@ export const load: PageServerLoad = async () => {
 
         await db.authenticate(token);
 
-        const data: any = await db.query("SELECT flag, name.en as name, keys.en as keys FROM Countries ORDER BY RAND()");
+        const data: any = await db.query('SELECT flag, name.en as name, keys.en as keys FROM Countries WHERE name.en != "" ORDER BY RAND()');
 
         await db.close();
 
